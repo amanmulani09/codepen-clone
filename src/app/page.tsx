@@ -25,7 +25,7 @@ useEffect(() => {
 
   return(
    <>
-   <div className="pane top-pane">
+   <div className="pane top-view">
    <Editor
           language="xml"
           displayName="HTML"
@@ -55,7 +55,6 @@ useEffect(() => {
           height="100%"
         />
       </div>
-
    </>
   )
 }
